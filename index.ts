@@ -42,8 +42,7 @@ app.get("/get-all", (req:Request,res: Response)=>{
     res.send(db)
 })
 
-app.post("/add", (req: Request,res: Response)=>{
-    let con= 
+app.post("/add", (req: Request,res: Response)=>{ 
 })
 
 app.listen(port, () =>{
